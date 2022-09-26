@@ -8,11 +8,11 @@ int main() {
   // Create and open a text file
   ofstream MyFile1("filename.txt");
 
-  ofstream myNewFile("Ankhi.txt");
+  ofstream myNewFile("sidd.txt");
 
   // Write to the file
   MyFile1 << "Files can be tricky, but it is fun enough!";
-  myNewFile<<" Ankhi is Good Student";
+  myNewFile<<" sidd is Good Student";
   MyFile1 << "Changes The Text but not Change only Append";
   // Close the file
   MyFile1.close();
